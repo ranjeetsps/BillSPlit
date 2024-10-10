@@ -1,13 +1,65 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.friend-img {
+  border-radius: 100px;
+}
+
+.choose-friend {
+  background-color: rgb(255, 123, 71);
+  border-radius: 40px;
+}
+
+.selected {
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.add-friend-button {
+  display: flex;
+  align-items: right;
+  justify-content: end;
+  padding: 0px;
+}
+
+.add-friend-button button {
+  background-color: rgb(255, 123, 71);
+  border-radius: 50px;
+}
+
+.form {
+  background-color: #fdf4e1;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+}
+
+.split-bill {
+  margin-left: 2rem;
+  align-items: centre;
+}
+
+.verticle-centre {
+  align-items: center;
+  display: flex;
 }
